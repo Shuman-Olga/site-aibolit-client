@@ -70,12 +70,50 @@ export default function Contacts() {
           </div>
         </div>
         <div className="block-map my-3">
-          <iframe
-            title="Embedded Content"
-            src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=1788754562"
-            width="560"
-            height="400"
-          ></iframe>
+          <div style={{ position: "relative", overflow: "hidden" }}>
+            <a
+              href="https://yandex.ru/maps/org/aybolit_detskaya_meditsinskaya_sluzhba/1788754562/?utm_medium=mapframe&utm_source=maps"
+              style={{
+                color: "#eee",
+                fontSize: "12px",
+                position: "absolute",
+                top: "0px",
+              }}
+            >
+              Айболит детская медицинская служба
+            </a>
+            <a
+              href="https://yandex.ru/maps/67/tomsk/category/home_care/680383784/?utm_medium=mapframe&utm_source=maps"
+              style={{
+                color: "#eee",
+                fontSize: "12px",
+                position: "absolute",
+                top: "14px",
+              }}
+            >
+              Медицинская помощь на дому в Томске
+            </a>
+            <a
+              href="https://yandex.ru/maps/67/tomsk/category/nursing_service/184106094/?utm_medium=mapframe&utm_source=maps"
+              style={{
+                color: "#eee",
+                fontSize: "12px",
+                position: "absolute",
+                top: "28px",
+              }}
+            >
+              Патронажная служба в Томске
+            </a>
+            <iframe
+              title="map"
+              src="https://yandex.ru/map-widget/v1/org/aybolit_detskaya_meditsinskaya_sluzhba/1788754562/?ll=84.982875%2C56.474215&z=15"
+              width="560"
+              height="400"
+              frameborder="1"
+              allowfullscreen="true"
+              style={{ position: "relative" }}
+            ></iframe>
+          </div>
         </div>
         <hr />
         <div className="mb-2 fs-6">

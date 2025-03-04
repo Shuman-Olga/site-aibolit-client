@@ -14,12 +14,11 @@ export default function MenuItems({ items }) {
             target="_top"
             rel="noopener noreferrer"
             state={{ p: items.breadcrumb }}
-            id={`navbarDropdown${items.breadcrumb}`}
           >
             {items.breadcrumb}
           </NavLink>
           <Dropdown dropmenus={items} />{" "}
-          <button
+          <NavLink
             type="button"
             className="btn-menu-toggle btn dropdown-toggle dropdown-toggle-split"
             data-bs-toggle="dropdown"
@@ -32,7 +31,7 @@ export default function MenuItems({ items }) {
             <span className="visually-hidden">
               Переключатель выпадающего списка
             </span>
-          </button>
+          </NavLink>
         </li>
       ) : (
         <li className="nav-item  mx-2">

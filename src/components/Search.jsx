@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Search() {
   return (
-    <search id="search">
+    <div id="search">
       <form className="d-flex" method="get" action="/search">
         <input
           className="form-control me-2"
@@ -20,6 +20,6 @@ export default function Search() {
           <i className="bi bi-search"></i>
         </button>
       </form>
-    </search>
+    </div>
   );
 }
