@@ -1,56 +1,94 @@
 import { createBrowserRouter } from "react-router-dom";
+import React from "react";
 
 import Home from "../pages/Home";
-import About from "../pages/About";
-import Programs from "../pages/Programs";
-import Contacts from "../pages/Сontacts";
-import ErrorPage from "../pages/ErrorPage";
-import ControllingOrgan from "../pages/about/ControllingOrgan";
-import Licenses from "../pages/about/Licenses";
-import Documents from "../pages/about/Documents";
-import OurPartners from "../pages/about/OurPartners";
-import ProgramOne from "../pages/programs/ProgramOne";
-import ProgramTwo from "../pages/programs/ProgramTwo";
-import ProgramThree from "../pages/programs/ProgramThree";
-import DoctorSadovnikova from "../pages/doctors/DoctorSadovnikova";
-import DoctorPetuhova from "../pages/doctors/DoctorPetuhova";
-import DoctorShevchenko from "../pages/doctors/DoctorShevchenko";
-import DoctorOstrouhova from "../pages/doctors/DoctorOstrouhova";
-import DoctorNaDom from "../pages/uslugi/DoctorNaDom";
-import Pediatr from "../pages/uslugi/Pediatr";
-import MedicalCertificates from "../pages/uslugi/MedicalCertificates";
-import SanatornoKurortnayaKarta from "../pages/uslugi/medicalcertificates/SanatornoKurortnayaKarta";
-import SpravkavShkolu from "../pages/uslugi/medicalcertificates/SpravkavShkolu";
-import SpravkavDetskiiSad from "../pages/uslugi/medicalcertificates/SpravkavDetskiiSad";
-import SpravkavBassein from "../pages/uslugi/medicalcertificates/SpravkavBassein";
-import Blog from "../pages/Blog";
-import Post1 from "../pages/posts/Post1";
-import Post2 from "../pages/posts/Post2";
-import Post3 from "../pages/posts/Post3";
-import Post4 from "../pages/posts/Post4";
-import SpravkavZdorove from "../pages/uslugi/medicalcertificates/SpravkaZdorove";
-import SpravkaForma026u from "../pages/uslugi/medicalcertificates/SpravkaForma026u";
-import MedicinskayaSpravka079u from "../pages/uslugi/medicalcertificates/MedicinskayaSpravka079u";
-import Post5 from "../pages/posts/Post5";
-import Doctors from "../pages/Doctors";
 import Layout from "./Layout";
-import ForPatients from "../pages/ForPatients";
-import Uslugi from "../pages/Uslugi";
-import PravovyInformations from "../pages/about/PravovyInformation";
-import Vacancies from "../pages/about/Vacancies";
-import LekarstvennoeObespechenie from "../pages/forPatients/LekarstvennoeObespechenie";
-import PravilaPodgotovkiIssledovaniyam from "../pages/forPatients/PravilaPodgotovki";
-import SvedeniyaSpecialistah from "../pages/forPatients/SvedeniyaSpecialistah";
-import SposobyOplaty from "../pages/forPatients/SposobyOplaty";
-import Otzyvy from "../pages/forPatients/Otzyvy";
-import Prices from "../pages/forPatients/Prices";
-import MapSite from "../pages/about/MapSite";
-import Post6 from "../pages/posts/Post6";
-import Post7 from "../pages/posts/Post7";
-import Post8 from "../pages/posts/Post8";
-import Post9 from "../pages/posts/Post9";
-// import Search from "../components/Search";
-import SearchPage from "../pages/SearchPage";
+
+const About = React.lazy(() => import("../pages/About"));
+const Programs = React.lazy(() => import("../pages/Programs"));
+const Contacts = React.lazy(() => import("../pages/Сontacts"));
+const ErrorPage = React.lazy(() => import("../pages/ErrorPage"));
+const ControllingOrgan = React.lazy(() =>
+  import("../pages/about/ControllingOrgan")
+);
+const Licenses = React.lazy(() => import("../pages/about/Licenses"));
+const Documents = React.lazy(() => import("../pages/about/Documents"));
+const OurPartners = React.lazy(() => import("../pages/about/OurPartners"));
+const ProgramOne = React.lazy(() => import("../pages/programs/ProgramOne"));
+const ProgramTwo = React.lazy(() => import("../pages/programs/ProgramTwo"));
+const ProgramThree = React.lazy(() => import("../pages/programs/ProgramThree"));
+const DoctorSadovnikova = React.lazy(() =>
+  import("../pages/doctors/DoctorSadovnikova")
+);
+const DoctorPetuhova = React.lazy(() =>
+  import("../pages/doctors/DoctorPetuhova")
+);
+const DoctorShevchenko = React.lazy(() =>
+  import("../pages/doctors/DoctorShevchenko")
+);
+const DoctorOstrouhova = React.lazy(() =>
+  import("../pages/doctors/DoctorOstrouhova")
+);
+const DoctorNaDom = React.lazy(() => import("../pages/uslugi/DoctorNaDom"));
+const Pediatr = React.lazy(() => import("../pages/uslugi/Pediatr"));
+const MedicalCertificates = React.lazy(() =>
+  import("../pages/uslugi/MedicalCertificates")
+);
+const SanatornoKurortnayaKarta = React.lazy(() =>
+  import("../pages/uslugi/medicalcertificates/SanatornoKurortnayaKarta")
+);
+const SpravkavShkolu = React.lazy(() =>
+  import("../pages/uslugi/medicalcertificates/SpravkavShkolu")
+);
+const SpravkavDetskiiSad = React.lazy(() =>
+  import("../pages/uslugi/medicalcertificates/SpravkavDetskiiSad")
+);
+const SpravkavBassein = React.lazy(() =>
+  import("../pages/uslugi/medicalcertificates/SpravkavBassein")
+);
+const Blog = React.lazy(() => import("../pages/Blog"));
+const Post1 = React.lazy(() => import("../pages/posts/Post1"));
+const Post2 = React.lazy(() => import("../pages/posts/Post2"));
+const Post3 = React.lazy(() => import("../pages/posts/Post3"));
+const Post4 = React.lazy(() => import("../pages/posts/Post4"));
+const SpravkavZdorove = React.lazy(() =>
+  import("../pages/uslugi/medicalcertificates/SpravkaZdorove")
+);
+const SpravkaForma026u = React.lazy(() =>
+  import("../pages/uslugi/medicalcertificates/SpravkaForma026u")
+);
+const MedicinskayaSpravka079u = React.lazy(() =>
+  import("../pages/uslugi/medicalcertificates/MedicinskayaSpravka079u")
+);
+const Post5 = React.lazy(() => import("../pages/posts/Post5"));
+const Doctors = React.lazy(() => import("../pages/Doctors"));
+
+const ForPatients = React.lazy(() => import("../pages/ForPatients"));
+const Uslugi = React.lazy(() => import("../pages/Uslugi"));
+const PravovyInformations = React.lazy(() =>
+  import("../pages/about/PravovyInformation")
+);
+const Vacancies = React.lazy(() => import("../pages/about/Vacancies"));
+const LekarstvennoeObespechenie = React.lazy(() =>
+  import("../pages/forPatients/LekarstvennoeObespechenie")
+);
+const PravilaPodgotovkiIssledovaniyam = React.lazy(() =>
+  import("../pages/forPatients/PravilaPodgotovki")
+);
+const SvedeniyaSpecialistah = React.lazy(() =>
+  import("../pages/forPatients/SvedeniyaSpecialistah")
+);
+const SposobyOplaty = React.lazy(() =>
+  import("../pages/forPatients/SposobyOplaty")
+);
+const Otzyvy = React.lazy(() => import("../pages/forPatients/Otzyvy"));
+const Prices = React.lazy(() => import("../pages/forPatients/Prices"));
+const MapSite = React.lazy(() => import("../pages/about/MapSite"));
+const Post6 = React.lazy(() => import("../pages/posts/Post6"));
+const Post7 = React.lazy(() => import("../pages/posts/Post7"));
+const Post8 = React.lazy(() => import("../pages/posts/Post8"));
+const Post9 = React.lazy(() => import("../pages/posts/Post9"));
+const SearchPage = React.lazy(() => import("../pages/SearchPage"));
 
 export const routesMain = [
   {
