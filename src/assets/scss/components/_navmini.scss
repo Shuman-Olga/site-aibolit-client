@@ -1,0 +1,37 @@
+#navmini {
+  .nav-link {
+    // color: #464d5c;
+    font-family: comic sans ms, comic-sans-w01-regular, comic-sans-w02-regular,
+      comic-sans-w10-regular, cursive;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    border-bottom: 1px solid white;
+  }
+  .svg-backgraund {
+    width: max-content;
+    svg {
+      fill: #dedede;
+    }
+  }
+  .nav-position {
+    top: 70px;
+    left: 25px;
+  }
+  .arrow-svg {
+    transform: rotate(180deg);
+    top: 50px;
+    left: 40px;
+    svg {
+      fill: #d1bf90;
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+@media (max-width: 1000px) {
+  #navmini {
+    .svg-backgraund {
+      margin-bottom: 15px;
+    }
+  }
+}
