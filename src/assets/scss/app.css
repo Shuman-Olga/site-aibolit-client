@@ -22,6 +22,10 @@ body {
   padding-right: 0 !important;
 }
 
+p {
+  text-align: justify;
+}
+
 #header,
 #home {
   padding: 0 !important;
@@ -370,6 +374,21 @@ body {
 #santornokurortnyakarta .size-img,
 #spravkazdorove .size-img {
   width: 25vw;
+}
+
+#spravkavdetskiisad .ulandimg {
+  display: flow-root;
+}
+#spravkavdetskiisad .size-img {
+  width: 15vw;
+  float: left;
+  margin: 10px 20px 2px 0px;
+}
+#spravkavdetskiisad ul li {
+  padding: 5px 0;
+}
+#spravkavdetskiisad p {
+  text-align: justify;
 }
 
 @media (max-width: 1200px) {
