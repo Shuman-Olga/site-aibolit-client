@@ -28,6 +28,11 @@ body {
 p {
   text-align: justify;
 }
+.size-img {
+  width: 15vw;
+  float: left;
+  margin: 10px 20px 2px 0px;
+}
 #header,
 #home {
   padding: 0 !important;
@@ -60,14 +65,4 @@ p {
   }
 }
 
-#blockadvantages {
-  p {
-    text-align: center;
-  }
-}
-
-// p,
-// li {
-//   // text-align: justify;
-// }
 @import "./_all";
