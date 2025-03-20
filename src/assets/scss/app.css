@@ -272,6 +272,18 @@ p {
 #programtwo .font-text {
   font-size: 12px;
 }
+#programone #uncontrolled-tab-example .nav-link,
+#programthree #uncontrolled-tab-example .nav-link,
+#programtwo #uncontrolled-tab-example .nav-link {
+  font-size: 1.3vw;
+  color: black;
+}
+#programone .active,
+#programthree .active,
+#programtwo .active {
+  background-color: #496f6e;
+  color: white !important;
+}
 
 @media (max-width: 800px) {
   #programone .block-table,

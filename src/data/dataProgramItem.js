@@ -1,7 +1,7 @@
 export const dataProgramItem = [
   {
     id: 0,
-    title: "Малыш Хоум. Стандарт",
+    title: "Малыш Хоум",
     path: "malysh-houm-standart-ot-0-do-2-h-le",
     img: "fibroma-u-rebenka.jpg",
     listelement: [
@@ -33,12 +33,12 @@ export const dataProgramItem = [
   },
   {
     id: 1,
-    title: "Здоровый ребенок. Стандарт",
+    title: "Здоровый ребенок",
     path: "zdorovyj-rebenok-houm-standart-ot-2",
     img: "helmets-for-special-needs.jpg",
     listelement: [
       {
-        name: " от 2-х лет",
+        name: " от 2-х до 5-ти лет",
       },
       {
         name: "Педиатр",
@@ -48,9 +48,6 @@ export const dataProgramItem = [
       },
       {
         name: "Анализы",
-      },
-      {
-        name: "УЗИ",
       },
       {
         name: "Вакцинация",
@@ -65,19 +62,23 @@ export const dataProgramItem = [
   },
   {
     id: 2,
-    title: "Здоровый ребенок Педиатр рядом",
+    title: "Педиатр рядом",
     path: "zdorovyj-rebenok-houm-midi-ot-2-h-l",
     img: "detskii_vrach_rebenok.jpg",
     listelement: [
       {
-        name: " от 2-х лет",
+        name: " от 5-и лет",
       },
       {
         name: "Педиатр",
       },
       {
+        name: "Узкие специалисты",
+      },
+      {
         name: "Мед. документация",
       },
+
       {
         name: "Мобильная связь",
       },

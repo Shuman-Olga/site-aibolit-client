@@ -183,17 +183,17 @@ export const routesMain = [
           {
             path: "malysh-houm-standart-ot-0-do-2-h-le/",
             element: <ProgramOne />,
-            breadcrumb: "Малыш Хоум стандарт",
+            breadcrumb: "Малыш Хоум от 0 до 2 лет",
           },
           {
             path: "zdorovyj-rebenok-houm-standart-ot-2/",
             element: <ProgramTwo />,
-            breadcrumb: "Здоровый ребенок",
+            breadcrumb: "Здоровый ребенок с 2 до 5 лет",
           },
           {
             path: "zdorovyj-rebenok-houm-midi-ot-2-h-l/",
             element: <ProgramThree />,
-            breadcrumb: "Педиатр рядом",
+            breadcrumb: "Педиатр рядом с 5лет",
           },
         ],
       },

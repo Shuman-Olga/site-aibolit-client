@@ -2,6 +2,7 @@ import { Container } from "react-bootstrap";
 
 import BlockReklama from "../../components/reklama/BlockReklama1";
 import SeoPage from "../../components/Seo";
+import PDFItem from "../../components/PDFItem";
 
 export default function ProgramThree() {
   return (
@@ -10,7 +11,7 @@ export default function ProgramThree() {
 
       <div className="page-h1">
         <Container>
-          <h1>Здоровый ребенок Педиатр рядом ( c 2-х лет)</h1>
+          <h1>Педиатр рядом ( c 5-ти лет)</h1>
         </Container>
       </div>
       <Container className="my-4 text-center">
@@ -22,13 +23,9 @@ export default function ProgramThree() {
             title="Здоровый ребенок Педиатр рядом ( c 2-х лет)"
           />
           <div className="lh-lg py-4">
-            <p>
+            <p className="text-center">
               Данная программа предназначена для наблюдения ребенка возрастом от
-              2-х лет. <br />В нее входит только наблюдение педиатра один раз в
-              месяц и связь с педиатром.
-              <br />В пакет не входит: наблюдение узкими специалистами, УЗИ и
-              анализы. <br />
-              Программа назначается только после консультации с педиатром.
+              5 - ти лет.
             </p>
           </div>
         </div>
@@ -40,10 +37,30 @@ export default function ProgramThree() {
                 <td className="px-3">
                   <p className="fw-bold">Ведущий врач педиатр</p>
                   <p className="ms-5">Наблюдение на дому</p>
+                  <p className="ms-5">Вызов на дом при заболевании</p>
                 </td>
                 <td>
                   <p>.</p>
                   <p className="fw-bold">ежемесячно(1 раз в мес)</p>
+                  <p className="fw-bold">без ограничений</p>
+                </td>
+              </tr>
+              <tr>
+                <td className="px-3">
+                  <p className="fw-bold">
+                    Плановые осмотры врачами-специалистами на дому{" "}
+                  </p>
+                  <p className="ms-5">Невролог</p>
+                  <p className="ms-5">Хирург-ортопед</p>
+                  <p className="ms-5">Офтальмолог</p>
+                  <p className="ms-5">Оториноларинголог </p>
+                </td>
+                <td>
+                  <p>в год</p>
+                  <p className="fw-bold">1 </p>
+                  <p className="fw-bold">1 </p>
+                  <p className="fw-bold">1</p>
+                  <p className="fw-bold">1 </p>
                 </td>
               </tr>
               <tr>
@@ -68,18 +85,25 @@ export default function ProgramThree() {
                   <p className="fw-bold">+</p>
                 </td>
               </tr>
-              <tr className="fs-5 table-group-divider table-info">
+              <tr className="fs-5 table-group-divider table-warning">
                 <td className="px-3">
                   <p className="fw-bold">Стоимость в месяц</p>
                   <p className="fw-bold">- за двух детей</p>
                 </td>
                 <td>
-                  <p className="fw-bold">5 500 руб.**</p>
-                  <p className="fw-bold">7 000 руб.**</p>
+                  <p className="fw-bold">6 000 руб.**</p>
+                  <p className="fw-bold">9 000 руб.**</p>
                 </td>
               </tr>
               <tr className="table-group-divider font-text ">
                 <td colSpan={2} className="px-3">
+                  <PDFItem
+                    {...{
+                      title: "ПРИЛОЖЕНИЕ к договору",
+                      pdf: "Приложение к договору_2.pdf",
+                    }}
+                  />
+
                   <p>
                     * стоимость вакцины не входит в программу и оплачивается
                     отдельно
