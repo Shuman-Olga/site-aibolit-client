@@ -19,7 +19,7 @@ export default function SpravkavZdorove() {
           <div className="d-flex my-4 block-foto">
             <div className="me-4">
               <img
-                className="size-img"
+                className="size-img me-4"
                 src={require(`../../../assets/img/helmets-for-special-needs.jpg`)}
                 alt="spravka-o-sostoyanii-zdorovya-reben"
                 title="Справка о состоянии здоровья ребенка"
@@ -110,7 +110,7 @@ export default function SpravkavZdorove() {
                   <p className="ms-5">Прием педиатра, выдача справки</p>
                 </td>
                 <td>
-                  <p>1 500 руб.</p>
+                  <p>2 000 руб.</p>
                 </td>
               </tr>
             </tbody>

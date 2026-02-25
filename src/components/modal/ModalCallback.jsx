@@ -114,7 +114,21 @@ export default function ModalCallback() {
                   }`}
                 />
                 <label htmlFor="accept" className="form-check-label">
-                  Я согласен(на) на обработку персональных данных.
+                  Вы даете{" "}
+                  <a
+                    href={require(`../../assets/docs/СОГЛАСИЕ НА ОБРАБОТКУ ПЕРСОНАЛЬНЫХ ДАННЫХ КЛИЕНТОВ-ФИЗИЧЕСКИХ ЛИЦ.pdf`)}
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    согласие
+                  </a>{" "}
+                  на обработку{" "}
+                  <a
+                    href={require(`../../assets/docs/Политика_обработки_персональных_данных_ООО_АЙБОЛИТ.pdf`)}
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    персональных данных
+                  </a>{" "}
+                  .
                 </label>
                 <div className="invalid-feedback">{errors.accept?.message}</div>
               </div>
@@ -130,8 +144,7 @@ export default function ModalCallback() {
                       ? "alert alert-success"
                       : "alert alert-danger"
                   }
-                  role="alert"
-                >
+                  role="alert">
                   {message}
                 </div>
               </div>

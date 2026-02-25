@@ -5,20 +5,22 @@ export default function CookieNotice() {
   return (
     <CookieConsent
       location="bottom"
-      buttonText="Согласен"
+      buttonText="Принимаю"
       cookieName="myWebsiteCookieConsent"
       style={{ background: "#2B373B" }}
       buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
-      expires={150}
-    >
-      Наш сайт использует куки. Продолжая им пользоваться, вы соглашаетесь на
-      обработку персональных данных в соотвествии с{" "}
+      expires={150}>
+      Мы используем cookie. Это позволяет нам анализировать взаимодействие
+      посетителей с сайтом и делать его лучше. Продолжая пользоваться сайтом, вы
+      автоматически соглашаетесь с использованием данных технологий и даете{" "}
       <a
-        href={require(`../assets/docs/ПОЛИТИКА ОБРАБОТКИ И ЗАЩИТЫ ПДн.pdf`)}
+        href={require(`../assets/docs/Политика_обработки_персональных_данных_ООО_АЙБОЛИТ.pdf`)}
         style={{ color: "#f5e042" }}
-      >
-        политикой конфиденциальности
-      </a>
+        target="_blank"
+        rel="noopener noreferrer">
+        {" "}
+        согласие на обработку персональных данных
+      </a>{" "}
     </CookieConsent>
   );
 }

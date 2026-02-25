@@ -2,10 +2,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Dropdown({ dropmenus }) {
   return (
-    <ul
-      className="dropdown-menu"
-      aria-labelledby={`navbarDropdown${dropmenus.breadcrumb}`}
-    >
+    <ul className="dropdown-menu">
       {dropmenus.children.slice(1).map((dropmenu, index) => (
         <li key={index}>
           <NavLink

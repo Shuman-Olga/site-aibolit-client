@@ -45,7 +45,7 @@ export default function Pediatr() {
                     </p>
                   </td>
                   <td>
-                    <p className="fw-bold">1 800 руб.</p>
+                    <p className="fw-bold">2 000 руб.</p>
                   </td>
                 </tr>
               </tbody>

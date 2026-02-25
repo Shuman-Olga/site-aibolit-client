@@ -1,5 +1,6 @@
 import { Container } from "react-bootstrap";
 import { Outlet } from "react-router-dom";
+import { Suspense } from "react";
 
 import { ModalState } from "../context/ModelContext";
 import Footer from "../components/Footer";
@@ -8,6 +9,7 @@ import CookieNotice from "../components/CookieNotice";
 import ModalCallback from "../components/modal/ModalCallback";
 import BtnScrollTop from "../components/button/BtnScrollTop";
 import Breadcrumbs from "../components/Breadcrumbs";
+import SpinnerLoad from "../components/Spinner";
 
 export default function Layout() {
   return (
@@ -16,7 +18,9 @@ export default function Layout() {
         <CookieNotice />
         <Header />
         <Breadcrumbs />
-        <Outlet />
+        <Suspense fallback={<SpinnerLoad />}>
+          <Outlet />
+        </Suspense>
         <ModalCallback />
         <BtnScrollTop />
         <Footer />

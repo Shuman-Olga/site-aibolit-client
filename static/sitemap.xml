@@ -41,6 +41,11 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://aibolit.tom.ru/o-nas/map-site/</loc>
+    <priority>0.6</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://aibolit.tom.ru/doctors/</loc>
     <priority>0.6</priority>
     <changefreq>daily</changefreq>
@@ -65,6 +70,11 @@
     <priority>0.6</priority>
     <changefreq>daily</changefreq>
   </url>
+    <url>
+    <loc>https://aibolit.tom.ru/uslugi-i-ceny/</loc>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
   <url>
     <loc>https://aibolit.tom.ru/blog/</loc>
     <priority>0.8</priority>
@@ -76,12 +86,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://aibolit.tom.ru/blog/patronaj_novorojdennogo/</loc>
+    <loc>https://aibolit.tom.ru/blog/patronaj-novorojdennogo/</loc>
     <priority>0.6</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://aibolit.tom.ru/blog/adaptaciya_k_detskomu_sadu/</loc>
+    <loc>https://aibolit.tom.ru/blog/adaptaciya-k-detskomu-sadu/</loc>
     <priority>0.6</priority>   
     <changefreq>daily</changefreq>
   </url>
@@ -96,22 +106,37 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://aibolit.tom.ru/blog/kak_pomoch_rebenku_perenesti_jaru/</loc>
+    <loc>https://aibolit.tom.ru/blog/kak-pomoch-rebenku-perenesti-jaru/</loc>
     <priority>0.6</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://aibolit.tom.ru/blog/detskii_lor_vrach_na_dom/</loc>
+    <loc>https://aibolit.tom.ru/blog/detskii-lor-vrach-na-dom/</loc>
     <priority>0.6</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://aibolit.tom.ru/blog/vizov_pediatra_na_dom/</loc>
+    <loc>https://aibolit.tom.ru/blog/vizov-pediatra-na-dom/</loc>
     <priority>0.6</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://aibolit.tom.ru/blog/pentaksim/</loc>
+    <priority>0.6</priority>
+    <changefreq>daily</changefreq>
+  </url>
+   <url>
+    <loc>https://aibolit.tom.ru/blog/kompleksnyj-osmotr-rebenka-na-domu/</loc>
+    <priority>0.6</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://aibolit.tom.ru/blog/sovetov-vracha-allergologa/</loc>
+    <priority>0.6</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://aibolit.tom.ru/blog/vnimanie-pollinoz/</loc>
     <priority>0.6</priority>
     <changefreq>daily</changefreq>
   </url>
@@ -226,8 +251,14 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://aibolit.tom.ru/pacientam/nalogovyj-vychet/</loc>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://aibolit.tom.ru/kontakty/</loc>
     <priority>0.8</priority>
     <changefreq>daily</changefreq>
   </url>
+
 </urlset>

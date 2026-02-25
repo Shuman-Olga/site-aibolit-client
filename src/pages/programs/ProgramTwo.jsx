@@ -2,6 +2,7 @@ import { Container } from "react-bootstrap";
 
 import BlockReklama1 from "../../components/reklama/BlockReklama1";
 import SeoPage from "../../components/Seo";
+import PDFItem from "../../components/PDFItem";
 
 export default function ProgramTwo() {
   return (
@@ -9,7 +10,7 @@ export default function ProgramTwo() {
       <SeoPage page="programtwo" />
       <div className="page-h1">
         <Container>
-          <h1>Здоровый ребенок Хоум Стандарт ( c 2-х лет)</h1>
+          <h1>Здоровый ребенок Хоум ( c 2-х до 5 лет)</h1>
         </Container>
       </div>
       <Container className="my-4 text-center">
@@ -23,7 +24,7 @@ export default function ProgramTwo() {
           />
           <div className="lh-lg py-4">
             <p>
-              Вашему ребёнку 1,5 года.
+              Вашему ребёнку 2 года.
               <br /> Это – особенная эпоха в его жизни, когда малыш начинает
               осознавать свои желания, учится управлять ими, думать и говорить.
               Именно в этом возрасте закладываются основы личности: от того как
@@ -50,7 +51,7 @@ export default function ProgramTwo() {
                 <td>
                   <p>.</p>
                   <p className="fw-bold">ежемесячно</p>
-                  <p className="fw-bold">без ограничений</p>
+                  <p className="fw-bold">по показаниям</p>
                 </td>
               </tr>
               <tr>
@@ -90,11 +91,11 @@ export default function ProgramTwo() {
               <tr>
                 <td className="px-3">
                   <p className="fw-bold">УЗИ в клинике</p>
-                  <p className="ms-5">УЗИ (внутренних органов)</p>
+                  <p className="ms-5">УЗИ</p>
                 </td>
                 <td>
-                  <p>в год</p>
-                  <p className="fw-bold">1</p>
+                  <p>Кол-во(в год)</p>
+                  <p className="fw-bold">1 (по назначению)</p>
                 </td>
               </tr>
               <tr>
@@ -133,18 +134,24 @@ export default function ProgramTwo() {
                   <p className="fw-bold">+</p>
                 </td>
               </tr>
-              <tr className="fs-5 table-group-divider table-info">
+              <tr className="fs-5 table-group-divider table-warning">
                 <td className="px-3">
                   <p className="fw-bold">Стоимость в месяц</p>
                   <p className="fw-bold">Стоимость в месяц за двух детей</p>
                 </td>
                 <td>
                   <p className="fw-bold">7 000 руб.**</p>
-                  <p className="fw-bold">10 500 руб.**</p>
+                  <p className="fw-bold">10 000 руб.**</p>
                 </td>
               </tr>
               <tr className="table-group-divider font-text">
                 <td colSpan={2} className="px-3">
+                  <PDFItem
+                    {...{
+                      title: "ПРИЛОЖЕНИЕ к договору",
+                      pdf: "Приложение к договору_3.pdf",
+                    }}
+                  />
                   <p>* стоимость вакцины входит в программу</p>
                   <p>
                     ** для отдельных районов города и Томского района

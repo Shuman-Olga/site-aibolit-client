@@ -28,7 +28,7 @@ export const dataBlog = [
     title: "ПАТРОНАЖ НОВОРОЖДЕННОГО ребёнка",
     description:
       "Очень важно, чтобы маленького человека, только что появившегося на свет, окружали забота и любовь. Не менее  важно, чтобы за его правильным развитием следили квалифицированные специалисты.",
-    path: "patronaj_novorojdennogo",
+    path: "patronaj-novorojdennogo",
     img: "post1.jpg",
   },
   {
@@ -36,7 +36,7 @@ export const dataBlog = [
     title: "Адаптация к детскому саду",
     description:
       "По какой причине детям сложно привыкнуть к саду и как взрослые могут поддержать их? Адаптация - это приспособление организма к внешним изменяющимся условиям, к новой обстановке.",
-    path: "adaptaciya_k_detskomu_sadu",
+    path: "adaptaciya-k-detskomu-sadu",
     img: "post5.jpg",
   },
   {
@@ -44,7 +44,7 @@ export const dataBlog = [
     title: "Как помочь ребенку перенести жару",
     description:
       "🔸Одежда хлопковая или льняная, свободная и светлых тонов. 🔹На голову легкая кепка или панама. ",
-    path: "kak_pomoch_rebenku_perenesti_jaru",
+    path: "kak-pomoch-rebenku-perenesti-jaru",
     img: "post6-1.jpg",
   },
   {
@@ -52,7 +52,7 @@ export const dataBlog = [
     title: "ДЕТСКИЙ ЛОР врач на дому",
     description:
       "ЛОР-врач (отоларинголог) детской медицинской службы «АЙБОЛИТ»  приедет по вашему вызову на дом в удобное для вас время. ",
-    path: "detskii_lor_vrach_na_dom",
+    path: "detskii-lor-vrach-na-dom",
     img: "post7-1.jpg",
   },
   {
@@ -60,7 +60,7 @@ export const dataBlog = [
     title: "Вызов ПЕДИАТРа на дом",
     description:
       "В детской медицинской службе «АЙБОЛИТ» мы знаем, что самым безопасным и удобным местом для консультаций врача – педиатра является свой собственный уютный дом",
-    path: "vizov_pediatra_na_dom",
+    path: "vizov-pediatra-na-dom",
     img: "massage.jpg",
   },
   {
@@ -69,6 +69,30 @@ export const dataBlog = [
     description:
       "«ПЕНТАКСИМ» — прививка от дифтерии, столбняка, коклюша, полиомиелита, инфекции вызванной Haemophilus",
     path: "pentaksim",
-    img: "pentaksim.jpg",
+    img: "pentaksim1.png",
+  },
+  {
+    id: 9,
+    title: "Чек-ап детский на дому",
+    description:
+      "Скрининговые медицинские осмотры детей – основа профилактического направления педиатрии. Для таких осмотров определены оптимальные периоды,…",
+    path: "kompleksnyj-osmotr-rebenka-na-domu",
+    img: "detskii_vrach_rebenok.jpg",
+  },
+  {
+    id: 10,
+    title: "Советы врача-аллерголога",
+    description:
+      "Аллергия у детей — это неадекватная реакция иммунной системы на безвредные для большинства вещества. Она может проявляться в...",
+    path: "sovetov-vracha-allergologa",
+    img: "reklama-3.jpg",
+  },
+  {
+    id: 11,
+    title: "Внимание, поллиноз!",
+    description:
+      "С приходом весны и яркого солнца многие дети начинают испытывать неприятные ощущения: зуд и покраснение глаз, заложенность носа,...",
+    path: "vnimanie-pollinoz",
+    img: "deti7.jpg",
   },
 ];

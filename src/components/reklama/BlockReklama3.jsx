@@ -33,7 +33,7 @@ export default function BlockReklama3() {
               target="_top"
               rel="noopener noreferrer"
             >
-              "Малыш Хоум. Стандарт" от 0 до 2-х лет
+              "Малыш Хоум" от 0 до 2-х лет
             </NavLink>
             <NavLink
               to="/programmy-nablyudeniya-za-zdorovem/zdorovyj-rebenok-houm-standart-ot-2/"
@@ -41,7 +41,7 @@ export default function BlockReklama3() {
               target="_top"
               rel="noopener noreferrer"
             >
-              "Здоровый ребенок Хоум. Стандарт" от 2-х лет
+              "Здоровый ребенок" от 2-х до 5 лет
             </NavLink>
             <NavLink
               to="/programmy-nablyudeniya-za-zdorovem/zdorovyj-rebenok-houm-midi-ot-2-h-l/"
@@ -49,7 +49,7 @@ export default function BlockReklama3() {
               target="_top"
               rel="noopener noreferrer"
             >
-              "Здоровый ребенок Хоум. Педиатр рядом" от 2-х лет
+              "Педиатр рядом" от 5-ти лет
             </NavLink>
           </Nav>
         </div>

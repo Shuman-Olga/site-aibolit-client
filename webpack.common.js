@@ -139,7 +139,7 @@ module.exports = {
         },
       },
       {
-        test: /\.(jpe?g|png|gif|svg)$/i,
+        test: /\.(jpe?g|webp|png|gif|svg)$/i,
         type: "asset/resource",
         generator: {
           filename: "assets/img/[hash][ext]",
@@ -151,6 +151,17 @@ module.exports = {
         generator: {
           filename: "assets/docs/[hash][ext]",
         },
+      },
+      {
+        test: /\.docx$/,
+        use: [
+          {
+            loader: "docx-loader",
+            options: {
+              removeLinks: true,
+            },
+          },
+        ],
       },
       {
         test: /\.(woff2?|eot|ttf|otf)$/i,

@@ -417,7 +417,7 @@ export default function Post8() {
           <h5 className="my-4"> Стоимость вызова врача</h5>
           <p className="text-center">
             <span className="fw-bold fst-itali ">
-              Педиатр, консультация на дому --------------------- 2 500 р.*
+              Педиатр, консультация на дому --------------------- 2 800 р.*
             </span>
           </p>
           <p className="mt-4">
