@@ -1,4 +1,6 @@
 import { Container } from "react-bootstrap";
+import HintAgreement from "../HintAgreement";
+// import Example from "../HintAgreement";
 
 export default function DoctorPage({
   img,
@@ -15,10 +17,13 @@ export default function DoctorPage({
   return (
     <>
       <div className="page-h1">
-        <Container>
-          <h1>
-            {lastname} {firstname} {surname}
-          </h1>
+        <Container className="d-flex align-items-center">
+          <div className="me-3">
+            <h1>
+              {lastname} {firstname} {surname}
+            </h1>
+          </div>
+          <HintAgreement />
         </Container>
       </div>
       <Container id="doctor">

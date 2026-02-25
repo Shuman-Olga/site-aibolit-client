@@ -7,7 +7,7 @@ import PDFItem from "../../components/PDFItem";
 export default function PravovyInformations() {
   return (
     <Container fluid id="pravoinfa">
-      <SeoPage page="pravoinfa" />
+      <SeoPage page="pravovainfa" />
       <div className="page-h1">
         <Container>
           <h1>Правовая информация</h1>

@@ -56,7 +56,7 @@ export default function ProgramOne() {
                     <td>
                       <p className="text-white-50">.</p>
                       <p className="fw-bold">ежемесячно</p>
-                      <p className="fw-bold">без ограничений</p>
+                      <p className="fw-bold">по показаниям</p>
                     </td>
                   </tr>
                   <tr>
@@ -216,7 +216,7 @@ export default function ProgramOne() {
                     <td>
                       <p className="text-white-50">.</p>
                       <p className="fw-bold">ежемесячно</p>
-                      <p className="fw-bold">без ограничений</p>
+                      <p className="fw-bold">по показаниям</p>
                     </td>
                   </tr>
                   <tr>

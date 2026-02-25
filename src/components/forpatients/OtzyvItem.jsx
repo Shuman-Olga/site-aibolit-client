@@ -1,11 +1,10 @@
 import { Container } from "react-bootstrap";
 
-import { dataOtzyvy } from "../../data/dataOtzyvy";
-
-export default function OtzyvItem() {
+export default function OtzyvItem({ currentPosts }) {
+  console.log(currentPosts);
   return (
     <Container className="">
-      {dataOtzyvy.reverse().map((item) => (
+      {currentPosts.map((item) => (
         <Container key={item.id} className="border my-4 p-4">
           <p className="fw-bold">{item.name}</p>
           <p className="fw-light">Отзыв о </p>

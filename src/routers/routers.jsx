@@ -1,9 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
 import React from "react";
 
-import Home from "../pages/Home";
 import Layout from "./Layout";
+import Post10 from "../pages/posts/Post10";
+import Post11 from "../pages/posts/Post11";
+import Post12 from "../pages/posts/Postt12";
 
+const Home = React.lazy(() => import("../pages/Home"));
 const About = React.lazy(() => import("../pages/About"));
 const Programs = React.lazy(() => import("../pages/Programs"));
 const Contacts = React.lazy(() => import("../pages/Сontacts"));
@@ -83,12 +86,16 @@ const SposobyOplaty = React.lazy(() =>
 );
 const Otzyvy = React.lazy(() => import("../pages/forPatients/Otzyvy"));
 const Prices = React.lazy(() => import("../pages/forPatients/Prices"));
+const NalogovyjVychet = React.lazy(() =>
+  import("../pages/forPatients/NalogovyjVychet")
+);
 const MapSite = React.lazy(() => import("../pages/about/MapSite"));
 const Post6 = React.lazy(() => import("../pages/posts/Post6"));
 const Post7 = React.lazy(() => import("../pages/posts/Post7"));
 const Post8 = React.lazy(() => import("../pages/posts/Post8"));
 const Post9 = React.lazy(() => import("../pages/posts/Post9"));
 const SearchPage = React.lazy(() => import("../pages/SearchPage"));
+const ChekAp = React.lazy(() => import("../pages/ChekAp"));
 
 export const routesMain = [
   {
@@ -198,6 +205,11 @@ export const routesMain = [
         ],
       },
       {
+        path: "chek-ap/",
+        breadcrumb: "Чек-апы",
+        children: [{ index: true, element: <ChekAp /> }],
+      },
+      {
         path: "uslugi-i-ceny/",
         breadcrumb: "Услуги",
         children: [
@@ -283,6 +295,11 @@ export const routesMain = [
             breadcrumb: "Сведения о специалистах",
           },
           {
+            path: "nalogovyj-vychet/",
+            element: <NalogovyjVychet />,
+            breadcrumb: "Налоговый вычет",
+          },
+          {
             path: "otzyvy/",
             element: <Otzyvy />,
             breadcrumb: "Отзывы",
@@ -310,27 +327,27 @@ export const routesMain = [
             breadcrumb: "Детский хирург",
           },
           {
-            path: "patronaj_novorojdennogo/",
+            path: "patronaj-novorojdennogo/",
             element: <Post4 />,
             breadcrumb: "Патронаж новорожденного",
           },
           {
-            path: "adaptaciya_k_detskomu_sadu/",
+            path: "adaptaciya-k-detskomu-sadu/",
             element: <Post5 />,
             breadcrumb: "Адаптация в детском саду",
           },
           {
-            path: "kak_pomoch_rebenku_perenesti_jaru/",
+            path: "kak-pomoch-rebenku-perenesti-jaru/",
             element: <Post6 />,
             breadcrumb: "Как помочь ребенку перенести жару",
           },
           {
-            path: "detskii_lor_vrach_na_dom/",
+            path: "detskii-lor-vrach-na-dom/",
             element: <Post7 />,
             breadcrumb: "Детский ЛОР врач на дом",
           },
           {
-            path: "vizov_pediatra_na_dom/",
+            path: "vizov-pediatra-na-dom/",
             element: <Post8 />,
             breadcrumb: "Вызов педиатра на дом",
           },
@@ -338,6 +355,21 @@ export const routesMain = [
             path: "pentaksim/",
             element: <Post9 />,
             breadcrumb: "Пентаксим",
+          },
+          {
+            path: "kompleksnyj-osmotr-rebenka-na-domu/",
+            element: <Post10 />,
+            breadcrumb: "Чек-ап детский на дому",
+          },
+          {
+            path: "sovetov-vracha-allergologa/",
+            element: <Post11 />,
+            breadcrumb: "Советы врача-аллерголога",
+          },
+          {
+            path: "vnimanie-pollinoz/",
+            element: <Post12 />,
+            breadcrumb: "Внимание, поллиноз!",
           },
         ],
       },

@@ -20,8 +20,7 @@ export default function BlockImg() {
                 to="uslugi-i-ceny/pediatr/"
                 target="_top"
                 rel="noopener noreferrer"
-                relative="path"
-              >
+                relative="path">
                 ПЕДИАТРЫ
               </NavLink>
             </li>
@@ -29,9 +28,13 @@ export default function BlockImg() {
               <Link
                 to="programmy-nablyudeniya-za-zdorovem/"
                 target="_top"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 ДЕТСКИЕ МЕДИЦИНСКИЕ ПРОГРАММЫ
+              </Link>
+            </li>
+            <li>
+              <Link to="chek-ap/" target="_top" rel="noopener noreferrer">
+                МЕДОСМОТРЫ (Чек-ап)
               </Link>
             </li>
             <li>
@@ -47,8 +50,7 @@ export default function BlockImg() {
           to="uslugi-i-ceny/vyzov-pediatra-na-dom/"
           className="nav-link"
           target="_top"
-          rel="noopener noreferrer"
-        >
+          rel="noopener noreferrer">
           <div className="block-btn color1">
             <div className="block-btn-border">
               <img
@@ -65,8 +67,7 @@ export default function BlockImg() {
           to="programmy-nablyudeniya-za-zdorovem/"
           className="nav-link"
           target="_top"
-          rel="noopener noreferrer"
-        >
+          rel="noopener noreferrer">
           <div className="block-btn color2">
             <div className="block-btn-border">
               <img
@@ -83,8 +84,7 @@ export default function BlockImg() {
           to="/"
           className="nav-link"
           target="_top"
-          rel="noopener noreferrer"
-        >
+          rel="noopener noreferrer">
           <div className="block-btn color3">
             <div className="block-btn-border">
               <img

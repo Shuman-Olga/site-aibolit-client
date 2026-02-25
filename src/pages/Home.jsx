@@ -6,16 +6,16 @@ import BlockContacts from "../components/home/BlockContacts";
 import BlockImg from "../components/home/BlockImg";
 import BlockInfo from "../components/home/BlockInfo";
 import SeoPage from "../components/Seo";
-import Banner from "../components/home/Banner";
-// import WorkOnHolidays from "../components/WorkOnHolidays";
+// import Banner from "../components/home/Banner";
+// import WorkOnHolidays from "../components/home/WorkOnHolidays";
 
-export default function App() {
+export default function Home() {
   return (
     <Container fluid id="home">
       <SeoPage page="home" />
       {/* <WorkOnHolidays /> */}
       <BlockImg />
-      <Banner />
+      {/* <Banner /> */}
       <BlockInfo />
       <BlockAdvantages />
       <BlockDoctors />

@@ -42,7 +42,7 @@ export default function ProgramThree() {
                 <td>
                   <p>.</p>
                   <p className="fw-bold">ежемесячно(1 раз в мес)</p>
-                  <p className="fw-bold">без ограничений</p>
+                  <p className="fw-bold">по показаниям</p>
                 </td>
               </tr>
               <tr>
@@ -61,6 +61,34 @@ export default function ProgramThree() {
                   <p className="fw-bold">1 </p>
                   <p className="fw-bold">1</p>
                   <p className="fw-bold">1 </p>
+                </td>
+              </tr>
+              <tr>
+                <td className="px-3">
+                  <p className="fw-bold">Плановые заборы анализов на дому</p>
+                  <p className="ms-5">
+                    Общеклинический анализ крови (ОАК -развернутый)
+                  </p>
+                  <p className="ms-5">Общий анализ мочи (ОАМ)</p>
+                  <p className="ms-5">Кал на яйца глист</p>
+                </td>
+                <td>
+                  <p>в год</p>
+                  <p className="fw-bold">1</p>
+                  <p className="fw-bold">1 </p>
+                  <p className="fw-bold">1 </p>
+                </td>
+              </tr>
+              <tr>
+                <td className="px-3">
+                  <p className="fw-bold">Вакцинация *</p>
+                  <p className="ms-5">
+                    Вакцинация по индивидуальному календарю
+                  </p>
+                </td>
+                <td>
+                  <p>.</p>
+                  <p className="fw-bold">+</p>
                 </td>
               </tr>
               <tr>
@@ -100,14 +128,11 @@ export default function ProgramThree() {
                   <PDFItem
                     {...{
                       title: "ПРИЛОЖЕНИЕ к договору",
-                      pdf: "Приложение к договору_2.pdf",
+                      pdf: "Приложение к договору_4.pdf",
                     }}
                   />
 
-                  <p>
-                    * стоимость вакцины не входит в программу и оплачивается
-                    отдельно
-                  </p>
+                  <p>* стоимость вакцины входит в программу</p>
                   <p>
                     ** для отдельных районов города и Томского района
                     предусмотрено повышение стоимости услуг в зависимости от

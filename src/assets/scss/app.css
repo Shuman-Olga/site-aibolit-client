@@ -38,6 +38,10 @@ p {
   margin: 0 !important;
 }
 
+.ulandimg {
+  display: flow-root;
+}
+
 .container-fluid {
   padding: 0;
 }
@@ -98,7 +102,6 @@ p {
   font-size: 30px;
 }
 #about .foto {
-  width: 50vw;
   border: 5px solid white;
   border-radius: 5px;
   box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.4);
@@ -134,10 +137,6 @@ p {
   }
 }
 @media (max-width: 1000px) {
-  #about .info-about {
-    flex-direction: column-reverse;
-    align-items: center;
-  }
   #about .foto {
     width: 100%;
   }
@@ -207,6 +206,7 @@ p {
   color: black;
 }
 #programs .foto {
+  width: 25vw;
   float: left;
   margin: 10px 20px 2px 0px;
 }
@@ -277,6 +277,11 @@ p {
 #programtwo #uncontrolled-tab-example .nav-link {
   font-size: 1.3vw;
   color: black;
+}
+#programone #uncontrolled-tab-example .nav-link:hover,
+#programthree #uncontrolled-tab-example .nav-link:hover,
+#programtwo #uncontrolled-tab-example .nav-link:hover {
+  background-color: rgb(202, 182, 70);
 }
 #programone .active,
 #programthree .active,
@@ -385,18 +390,8 @@ p {
     margin-right: 0 !important;
   }
 }
-#santornokurortnyakarta .size-img,
-#spravkazdorove .size-img {
-  width: 25vw;
-}
-
 #spravkavdetskiisad .ulandimg {
   display: flow-root;
-}
-#spravkavdetskiisad .size-img {
-  width: 15vw;
-  float: left;
-  margin: 10px 20px 2px 0px;
 }
 #spravkavdetskiisad ul li {
   padding: 5px 0;
@@ -658,6 +653,30 @@ p {
 
 #prices .ms-5 {
   margin-left: 0 !important;
+}
+
+#chek-ap .foto {
+  float: left;
+  margin: 10px 20px 2px 0px;
+}
+#chek-ap .card-header {
+  background-color: #496f6e;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+#chek-ap .card:hover {
+  transform: scale(1.1);
+  background-color: #fef7e7;
+  z-index: 2;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+#chek-ap .card:hover .card-header {
+  background-color: rgb(202, 182, 70);
+  color: black;
+}
+#chek-ap .card:hover .list-group-item {
+  background-color: rgb(202, 182, 70);
 }
 
 #header {
@@ -964,6 +983,11 @@ p {
     margin-bottom: 15px;
   }
 }
+@media (max-width: 1200px) {
+  #footer .block-colum {
+    flex-direction: column;
+  }
+}
 #navmini .nav-link {
   font-family: comic sans ms, comic-sans-w01-regular, comic-sans-w02-regular, comic-sans-w10-regular, cursive;
   letter-spacing: 0.03em;
@@ -1154,6 +1178,19 @@ p {
 #search button i,
 #search-page button i {
   color: white;
+}
+
+.material-icons {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.tooltip-inner {
+  background-color: grey;
+}
+
+.bs-tooltip-bottom .tooltip-arrow::before {
+  border-bottom-color: grey;
 }
 
 #blockadvantages hr {

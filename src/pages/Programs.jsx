@@ -18,7 +18,7 @@ export default function Programs() {
           <img
             src={require(`../assets/img/massage.jpg`)}
             alt="foto-aibolit"
-            className="img-thumbnail foto"
+            className="foto"
             title="Программы наблюдения за здоровьем ребенка"
           />
 
@@ -50,11 +50,12 @@ export default function Programs() {
             который в течение года будет следить за здоровьем Вашего ребёнка.
           </p>
         </div>
-        <p>
-          Оформляя договор на годовое медицинское обслуживание ребенка, Вы
-          получаете:
-        </p>
+
         <div className=" pt-2 ">
+          <p>
+            Оформляя договор на годовое медицинское обслуживание ребенка, Вы
+            получаете:
+          </p>
           <div>
             <ul>
               <li>

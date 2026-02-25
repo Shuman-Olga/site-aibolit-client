@@ -97,23 +97,7 @@ export default function SpravkavBassein() {
                   </p>
                 </td>
                 <td>
-                  <p>1 500 руб.</p>
-                </td>
-              </tr>
-              <tr>
-                <td className="px-3">
-                  <p className="ms-5">Анализ соскоб на энтеробиоз</p>
-                </td>
-                <td>
-                  <p>600 руб.</p>
-                </td>
-              </tr>
-              <tr>
-                <td className="px-3">
-                  <p className="ms-5">Исследование кала на яйца гельминтов</p>
-                </td>
-                <td>
-                  <p>600 руб.</p>
+                  <p>2 000 руб.</p>
                 </td>
               </tr>
             </tbody>

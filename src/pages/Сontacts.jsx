@@ -109,8 +109,7 @@ export default function Contacts() {
               src="https://yandex.ru/map-widget/v1/org/aybolit_detskaya_meditsinskaya_sluzhba/1788754562/?ll=84.982875%2C56.474215&z=15"
               width="560"
               height="400"
-              frameborder="1"
-              allowfullscreen="true"
+              allowFullScreen
               style={{ position: "relative" }}
             ></iframe>
           </div>

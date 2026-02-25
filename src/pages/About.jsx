@@ -13,11 +13,11 @@ export default function About() {
         </Container>
       </div>
       <Container>
-        <div className="info-about mt-5">
+        <div className="d-flex justify-content-center mt-5">
           <img
             src={require(`../assets/img/massage.jpg`)}
             alt="foto-aibolot"
-            className=" foto"
+            className="foto"
             title="foto"
           />
         </div>

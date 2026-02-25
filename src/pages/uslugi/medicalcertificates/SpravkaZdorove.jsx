@@ -110,7 +110,7 @@ export default function SpravkavZdorove() {
                   <p className="ms-5">Прием педиатра, выдача справки</p>
                 </td>
                 <td>
-                  <p>1 500 руб.</p>
+                  <p>2 000 руб.</p>
                 </td>
               </tr>
             </tbody>

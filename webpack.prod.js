@@ -18,6 +18,7 @@ const plugins = [
           // Lossless optimization with custom option
           // Feel free to experiment with options for better result for you
           plugins: [
+            // ["imagemin-webp", { quality: 75 }],
             ["gifsicle", { interlaced: true }],
             ["jpegtran", { progressive: true }],
             ["optipng", { optimizationLevel: 5 }],

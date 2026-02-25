@@ -50,6 +50,9 @@ export const dataProgramItem = [
         name: "Анализы",
       },
       {
+        name: "УЗИ",
+      },
+      {
         name: "Вакцинация",
       },
       {
@@ -74,6 +77,9 @@ export const dataProgramItem = [
       },
       {
         name: "Узкие специалисты",
+      },
+      {
+        name: "Анализы",
       },
       {
         name: "Мед. документация",

@@ -21,7 +21,6 @@ export default function Layout() {
         <Suspense fallback={<SpinnerLoad />}>
           <Outlet />
         </Suspense>
-
         <ModalCallback />
         <BtnScrollTop />
         <Footer />

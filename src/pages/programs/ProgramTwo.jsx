@@ -51,7 +51,7 @@ export default function ProgramTwo() {
                 <td>
                   <p>.</p>
                   <p className="fw-bold">ежемесячно</p>
-                  <p className="fw-bold">без ограничений</p>
+                  <p className="fw-bold">по показаниям</p>
                 </td>
               </tr>
               <tr>
@@ -86,6 +86,16 @@ export default function ProgramTwo() {
                   <p className="fw-bold">1</p>
                   <p className="fw-bold">1 </p>
                   <p className="fw-bold">1 </p>
+                </td>
+              </tr>
+              <tr>
+                <td className="px-3">
+                  <p className="fw-bold">УЗИ в клинике</p>
+                  <p className="ms-5">УЗИ</p>
+                </td>
+                <td>
+                  <p>Кол-во(в год)</p>
+                  <p className="fw-bold">1 (по назначению)</p>
                 </td>
               </tr>
               <tr>

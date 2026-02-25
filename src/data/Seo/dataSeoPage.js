@@ -36,7 +36,7 @@ export const dataSeo = [
     description:
       "ДЕТСКАЯ МЕДИЦИНСКАЯ СЛУЖБА 'АЙБОЛИТ' предлагает программы наблюдения за здоровьем ребенка. Квалифицированные специалисты постараются решить все проблемы со здоровьем, сопутствующие периоду роста ребёнка. Патронаж новорожденных",
     keywords:
-      "программы наблюдения, патронаж новорожденного, ребенка, здоровьем, на дом, Томск, платно, вызов, педиатра, врача",
+      "Программа наблюдения за здоровьем детей, Патронаж новорожденного с рождения, Комплексная годовая программа для ребенка, программы наблюдения, патронаж новорожденного, ребенка, здоровьем, на дом, Томск, платно, вызов, педиатра, врача",
     urlname: "https://aibolit.tom.ru/programmy-nablyudeniya-za-zdorovem/",
     img: "fibroma-u-rebenka.jpg",
   },
@@ -76,7 +76,7 @@ export const dataSeo = [
     description: "Информация для пациентов, Режим работы, информация о врачах",
     keywords:
       "ул. Герцена 68, айболит детская медицинская служба, педиатр на дом, вызов педиатра на дом, вызов платного педиатра, обслуживание б патронаж новорожденного вызов, лор, невролог, педиатр, хирург, гастроэнтеролог, на дом, платно, , Томск",
-    urlname: "https://aibolit.tom.ru/information/",
+    urlname: "https://aibolit.tom.ru/pacientam/",
     img: "uslugi1.jpg",
   },
   /*
@@ -123,9 +123,8 @@ subpages page About
   },
 
   {
-    namePage: "pravoinfa ",
-
-    title: "Правовая информация | Айболит",
+    namePage: "pravovainfa",
+    title: "Правовая информация Айболит",
     description: "Правовая информация. ООО 'Айболит'Детская медицинская служба",
     keywords:
       "герцина 68 стр 2 томск, врачи клиника айболит томск, правовая информация",
@@ -134,7 +133,6 @@ subpages page About
   },
   {
     namePage: "vacancies",
-
     title: "Вакансии | Айболит",
     description: "Вакансии Айболит-детская медицинская служба",
     keywords: "вакансии педиатр",
@@ -143,7 +141,6 @@ subpages page About
   },
   {
     namePage: "mapsite",
-
     title: "Карта сайта | Айболит",
     description: "Карта сайта Айболит-детская медицинская служба",
     keywords: "Карта сайта",
@@ -337,7 +334,15 @@ subpages page ForPatients
     urlname: "https://aibolit.tom.ru/pacientam/sposoby-oplaty/",
     img: "uslugi4.jpg",
   },
+  {
+    namePage: "nalogovyjvychet",
 
+    title: "Налоговый вычет в Айболит детская медицинская служба Томск",
+    description: "Как оформить налоговый вычет",
+    keywords: "Как оформить налоговый вычет",
+    urlname: "https://aibolit.tom.ru/pacientam/nalogovyj-vychet/",
+    img: "uslugi4.jpg",
+  },
   {
     namePage: "otzyvy",
 
@@ -348,10 +353,11 @@ subpages page ForPatients
       "Отзывы, оказывающие платные медицинские услуги, вызов, консультация, осмотр, педиатр, детский врач, платно, анализы, ребенок, новорожденный, цена, на дом, Томск",
     urlname: "https://aibolit.tom.ru/pacientam/otzyvy/",
     img: "uslugi4.jpg",
-  } /*
+  },
+
+  /*
   subpages page MedicinskaySpravka
-  */,
-  {
+  */ {
     namePage: "spravka079u",
     title: "Медицинская справка 079/у в детский лагерь | Айболит",
     description: "Оформление справки по форме 079/у в детский лагерь | Айболит",
@@ -422,6 +428,19 @@ subpages page ForPatients
     img: "helmets-for-special-needs.jpg",
   },
   /*
+  subpages page ChekAp
+  */
+  {
+    namePage: "chekap",
+    title: "Чек-апы для детей на дому 'Айболит' Томск",
+    description:
+      "Педиатрический Check-up на дому. Ознакомьтесь с программами клиник 'Айболит'",
+    keywords:
+      "плановый осмотр, ребенка, в месяц, год, три месяца, 6 месяцев, медосмотр, комплексный медицинский осмотр, новорожденного",
+    urlname: "https://aibolit.tom.ru/chek-ap/",
+    img: "post1-2.jpg",
+  },
+  /*
   subpages page Blog
   */
   {
@@ -464,7 +483,7 @@ subpages page ForPatients
       "Патронаж новорожденных в Айболит медицинской службе – это внимательное, доброжелательное отношение, высокий профессионализм врачей, индивидуальный подход к каждому ребенку.",
     keywords:
       "вызывать педиатра, патронаж, программы наблюдения, здоровье, ребенка, новорожденного, палатно, на дом, Томск",
-    urlname: "https://aibolit.tom.ru/blog/patronaj_novorojdennogo/",
+    urlname: "https://aibolit.tom.ru/blog/patronaj-novorojdennogo/",
     img: "post1.jpg",
   },
   {
@@ -474,7 +493,7 @@ subpages page ForPatients
     description:
       "Стоит ли отдавать ребенка в детский сад? В какой момент лучше начинать ходить сад? И как помочь ребенку в адаптации в детском саду?",
     keywords: "вызывать педиатра на дом, Томск, адаптация в детском саду",
-    urlname: "https://aibolit.tom.ru/blog/adaptaciya_k_detskomu_sadu/",
+    urlname: "https://aibolit.tom.ru/blog/adaptaciya-k-detskomu-sadu/",
     img: "post5.jpg",
   },
   {
@@ -485,7 +504,7 @@ subpages page ForPatients
       "Солнечный и тепловой удар у детей – понятия сходные. Особую группу риска составляют малыши от 0 до 3х лет, ведь их организм еще не умеет в должной степени регулировать температуру.",
     keywords:
       "вызывать педиатра на дом, Томск, Как помочь ребенку перенести жару",
-    urlname: "https://aibolit.tom.ru/blog/kak_pomoch_rebenku_perenesti_jaru/",
+    urlname: "https://aibolit.tom.ru/blog/kak-pomoch-rebenku-perenesti-jaru/",
     img: "post6-1.jpg",
   },
   {
@@ -496,7 +515,7 @@ subpages page ForPatients
       "Наши врачи-специалисты оказывают на дому квалифицированную медицинскую помощь, обеспечивая высочайший уровень диагностики,лечения, сопровождения и реабилитации наших маленьких пациентов.",
     keywords:
       "вызывать лор на дом, Томск, отоларинголог детский , лор детский, на дом, врач ребенку ",
-    urlname: "https://aibolit.tom.ru/blog/detskii_lor_vrach_na_dom/",
+    urlname: "https://aibolit.tom.ru/blog/detskii-lor-vrach-na-dom/",
     img: "post7-1.jpg",
   },
   {
@@ -507,7 +526,7 @@ subpages page ForPatients
       "Мы предоставляем возможность получения квалифицированной медицинской помощи на дому,обеспечивая высочайший уровень диагностики, лечения, сопровождения наших маленьких пациентов и поддержку их семей",
     keywords:
       "вызов педиатра, патронаж, программы наблюдения, здоровье, ребенка, новорожденного, палатно, на дом, Томск",
-    urlname: "https://aibolit.tom.ru/blog/vizov_pediatra_na_dom/",
+    urlname: "https://aibolit.tom.ru/blog/vizov-pediatra-na-dom/",
     img: "massage.jpg",
   },
   {
@@ -519,6 +538,36 @@ subpages page ForPatients
     keywords:
       "вызов педиатра, патронаж новорожденного, вакцинация, программы наблюдения, здоровье, ребенка, новорожденного, палатно, на дом, Томск",
     urlname: "https://aibolit.tom.ru/blog/pentaksim/",
+    img: "detskii_vrach_rebenok.jpg",
+  },
+  {
+    namePage: "post10",
+    title: "Чек-ап детский на дому",
+    description:
+      "Скрининговые медицинские осмотры детей – основа профилактического направления педиатрии.",
+    keywords:
+      "вызов педиатра, патронаж новорожденного, медосмотры для детей, медицинский осмотр ребенка,вакцинация, программы наблюдения, здоровье, ребенка, новорожденного, палатно, на дом, Томск",
+    urlname: "https://aibolit.tom.ru/blog/kompleksnyj-osmotr-rebenka-na-domu/",
+    img: "reklama-3.jpg",
+  },
+  {
+    namePage: "post11",
+    title: "Советы врача-аллерголога",
+    description:
+      "Аллергия у детей — это неадекватная реакция иммунной системы на безвредные для большинства вещества.",
+    keywords:
+      "вызов педиатра, аллерголога, аллергия,  патронаж новорожденного, медосмотры для детей, медицинский осмотр ребенка,вакцинация, программы наблюдения, здоровье, ребенка, новорожденного, палатно, на дом, Томск",
+    urlname: "https://aibolit.tom.ru/blog/sovetov-vracha-allergologa/",
     img: "pentaksim.jpg",
+  },
+  {
+    namePage: "post12",
+    title: "Внимание, поллиноз!",
+    description:
+      "С приходом весны и яркого солнца многие дети начинают испытывать неприятные ощущения: зуд и покраснение глаз, заложенность носа,",
+    keywords:
+      "вызов педиатра,аллерголог,патронаж новорожденного, медосмотры для детей, медицинский осмотр ребенка,вакцинация, программы наблюдения, здоровье, ребенка, новорожденного, палатно, на дом, Томск",
+    urlname: "https://aibolit.tom.ru/blog/vnimanie-pollinoz/",
+    img: "deti7.jpg",
   },
 ];

@@ -281,7 +281,7 @@ export default function SpravkavDetskiiSad() {
                   </p>
                 </td>
                 <td>
-                  <p>1 300 руб.</p>
+                  <p>2 000 руб.</p>
                 </td>
               </tr>
             </tbody>

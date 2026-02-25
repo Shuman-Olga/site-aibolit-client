@@ -6,7 +6,8 @@ export default function MenuItems({ items }) {
     <>
       {items.children &&
       items.path !== "blog/" &&
-      items.path !== "uslugi-i-ceny/" ? (
+      items.path !== "uslugi-i-ceny/" &&
+      items.path !== "chek-ap/" ? (
         <li className="nav-item dropdown mx-2 wrap-li d-flex">
           <NavLink
             className="nav-link text-dark"

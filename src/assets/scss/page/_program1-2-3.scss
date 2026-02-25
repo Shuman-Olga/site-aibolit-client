@@ -15,7 +15,11 @@
   #uncontrolled-tab-example .nav-link {
     font-size: 1.3vw;
     color: black;
+    &:hover {
+      background-color: rgb(202, 182, 70);
+    }
   }
+
   .active {
     background-color: #496f6e;
     color: white !important;

@@ -22,7 +22,7 @@ export default function Banner() {
             Погрузитесь в уникальный авторский курс
             <a
               href=" https://app.leadteh.ru/w/deZRb"
-              class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
+              className="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
             >
               {" "}
               "Твои Не Идеальные Роды"{" "}
@@ -56,7 +56,7 @@ export default function Banner() {
             путешествия в мир материнства. Записывайтесь на курс
             <a
               href=" https://app.leadteh.ru/w/deZRb"
-              class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
+              className="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
             >
               {" "}
               "Твои Не Идеальные Роды"{" "}
@@ -68,7 +68,7 @@ export default function Banner() {
             👣 Записаться можно по ссылке{" "}
             <a
               href=" https://app.leadteh.ru/w/deZRb"
-              class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
+              className="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
             >
               https://app.leadteh.ru/w/deZRb
             </a>
